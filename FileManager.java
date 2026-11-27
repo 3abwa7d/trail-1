@@ -117,6 +117,7 @@ public class FileManager {
                 }
                 if (doctor == null) continue; // Skip if doctor was removed
 
+                
                 // Rebuild appointment
                 Appointment appt = new Appointment(patientId, patientName, doctor, dateTime);
                 appt.forceId(apptId);
